@@ -11,6 +11,6 @@ app.use(cookieParser());
 
 app.use("/api/product", productRoutes);
 app.use("/api/user", userRoutes);
-app.use("/api/cart", jwtAuth, cartRoutes);
+app.use("/api/cart",cartRoutes);
 
 export default app;
